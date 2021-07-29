@@ -1,0 +1,100 @@
+.paymentBox {
+    /* Standard syntax*/
+   animation-duration: 3s;
+   animation-name: slidein;
+   background-color: white;
+   z-index: 5;
+   min-height: 77vh;
+   position: absolute;
+   top: 0px;
+   border-radius: 10px;
+   min-width: 100%;
+  padding-bottom: 20px;
+}
+ @keyframes slidein {
+   from {
+       margin-left: 100%;
+   }
+
+   to {
+       margin-left: 0%;
+   }
+}
+
+.mode {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 30px;
+}
+.mode main {
+    cursor: pointer;
+}
+.paymentbg {
+    background-color: rgb(234, 240, 250);
+    border-radius: 15px;
+    padding: 10px 30px;
+    border: 1px solid rgb(253, 251, 251);
+}
+.total {
+    font-size: 17px;
+    font-weight: 500;
+    padding-bottom: 5px;
+}
+.paymentbg>main {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.checkbox {
+    display: flex;
+    gap: 3px;
+    align-items: center;
+    font-size: 12px;
+}
+.checkbox main {
+    color: rgb(49,203,218);
+}
+.paymenthead {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 15px 0px;
+}
+.paymentbg section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    padding: 10px 5px;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    font-size: 14px;
+}
+.paymentbg section img {
+    width: 80px;
+}
+.successfull {
+    position: fixed;
+    background-color: rgb(102,187,106);
+    z-index: 100;
+    width: 400px;
+    height: 200px;
+    top: 100px;
+    left: 50%;
+    margin-left: -200px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    color: white;
+    border-radius: 10px;
+    justify-content: center;
+    font-weight: bold;
+}
+.successfull main {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 15px;
+    cursor: pointer;
+}

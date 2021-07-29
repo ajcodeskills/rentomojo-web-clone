@@ -1,0 +1,23 @@
+.display {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    background-color: white;
+    padding: 12px;
+    position: fixed;
+    z-index: 10;
+}
+.partOne {
+    width: 38%;
+}
+.partTwo {
+    display: flex;
+    width: 38%;
+    justify-content: space-around;
+}
+.partTwo main {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    color: rgb(186,186,186);
+}

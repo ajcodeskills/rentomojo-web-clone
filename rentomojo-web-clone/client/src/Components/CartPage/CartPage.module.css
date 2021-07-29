@@ -1,0 +1,13 @@
+.bg {
+    display: flex;
+    width: 85%;
+    margin: auto;
+    padding-top: 100px;
+    gap: 40px;
+}
+.display {
+    background-color: rgb(245,247,250);
+}
+.cartBox {
+    position: relative;
+}

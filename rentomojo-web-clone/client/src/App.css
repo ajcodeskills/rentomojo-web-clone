@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css?family=Muli");
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: Muli, sans-serif;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.modal1-mob{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+}
+
+.modal-input{
+  width: 300px;
+  margin-left: -130px;
+  padding-left: 25px;
+  padding-top: 20px;
+  padding-right: 20px;
+  margin-top: -20px;
+  margin-right: -105px;
+  background-color: rgb(245,247,250);
+  font-size: 13px;
+  font-weight: 550;
+}
+
+.modal-input>#mobile-num{
+  height: 20px;
+  margin: auto;
+  border:none;
+  width: 270px;
+  padding: 15px;
+}
+
+
+
+
+.modal1-mob>img{
+  height: 370px;
+  width: 350px;
+  margin-left:-100px;
+}

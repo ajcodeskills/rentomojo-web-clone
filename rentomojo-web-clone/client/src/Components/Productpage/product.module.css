@@ -1,0 +1,157 @@
+
+.dis {
+    width: 73%;
+}
+.display {
+    display: flex;
+    margin-top: 60px;
+    color: rgb(49,49,49);
+    margin-bottom: 60px;
+}
+.imgBox {
+    position: relative;
+}
+.imgBox Img {
+    width: 100%;
+}
+.imgBox div {
+    position: absolute;
+    right: 25px;
+    top: 25px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 23px;
+}
+.imgBox div:hover {
+    color: rgb(220,50,38);
+}
+.tag {
+    display: flex;
+    font-size: 20px;
+    margin-top: -4px;
+}
+.tag * {
+    width: 50%;
+    padding: 20px;
+
+}
+.why {
+    background-color: rgb(245,247,250);
+}
+.pro {
+    border-top: 2px solid rgb(221,93,84);
+}
+.proBox {
+    width: 85%;
+    margin: auto;
+}
+.covid {
+    border: 1px solid rgb(197, 194, 194);
+    padding: 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.covid1 {
+    flex: 1;
+}
+.covid2 {
+    flex: 6;
+    margin-right: 20px;
+}
+.covid3 {
+    flex: 2;
+}
+.covid3 * {
+    text-decoration: none;
+    color: black;
+    margin-left: 5px;
+}
+.covid img {
+    width: 45px;
+}
+.head {
+    font-size: 25px;
+    margin: 20px 0px;
+    display:inline-block;
+    position:relative;
+}
+.head::after {
+    content:'';
+    height:2px;
+    width:30%;
+    background:#f24432;
+    position:absolute;
+    left: 0;
+    bottom:-5px;
+}
+.smallImg img {
+    width: 300px;
+}
+.proDetail {
+    display: flex;
+    gap: 20px;
+}
+.proDetail2 {
+    margin-left: 10px;
+}
+.proHead {
+    font-size: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    display: inline-block;
+}
+.proHead::after {
+    content:'';
+    height:2px;
+    width:30%;
+    background:#949393;
+    position:absolute;
+    left: 0;
+    bottom:-5px;
+}
+.proDetail2 p {
+    font-size: 15px;
+    margin-bottom: 20px;
+    color: rgb(165, 164, 164);
+}
+.flex {
+    display: flex;
+    gap: 30px;
+}
+
+.proDetail2 hr {
+    margin: 10px 0;
+}
+.color {
+    display: flex;
+    gap: 10px;
+}
+
+.flex div, .flex li {
+    margin-bottom: 10px;
+    color: rgb(167, 164, 164);
+    font-size: 16;
+}
+.flex main {
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: rgb(94, 92, 92);
+}
+.proBottom {
+    display: flex;
+    justify-content: space-between;
+}
+.proBottom > div {
+    display: flex;
+    gap: 5px;
+    color: rgb(167, 164, 164);
+}
+.proBottom main {
+    color: rgb(94, 92, 92);   
+}
+.addCart{
+    width: 26%;
+}

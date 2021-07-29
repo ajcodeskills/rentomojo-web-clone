@@ -1,0 +1,146 @@
+.addBox {
+    position: sticky;
+    top: -5px;
+}
+.proName {
+    font-family: Muli, sans-serif;
+    padding: 10px;
+    color: rgb(93,93,93);
+    font-size: 16px;
+    font-weight: 800;
+}
+.cond {
+    background-color: rgb(245,247,250);
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.cond div {
+    font-size: 13px;
+    padding-left: 10px;
+    color: rgb(93,93,93);
+}
+.cond * {
+    color: rgb(88,169,170);
+    padding-right: 10px;
+    font-size: 13px;
+    align-items: center;
+}
+table {
+    border-collapse: collapse;
+    margin: 10px;
+}
+table td {
+    border: 1px solid #ddd;
+    padding: 20px 10px;
+    font-size: 12px;
+    color: rgb(93,93,93);
+}
+.firstrow main {
+    color: gray;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.secondrow section{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    color: gray;
+    text-align: center;
+}
+.flex {
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+}
+.secondrow div  {
+    min-width: 50px;
+}
+.secondrow main * {
+    padding-right: 3px;
+}
+.compare {
+    border: 1px solid rgb(92,207,210);
+    text-align: center;
+    cursor: pointer;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+.compare * {
+    text-decoration: none;
+    color: rgb(92,207,210);
+    font-weight: 700;
+}
+.delivery {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    font-size: 12px;
+    gap: 10px;
+    justify-content: space-between;
+}
+.delivery img {
+    width: 20px;
+}
+
+.delivery .info {
+    color: rgb(92,207,210);
+}
+.spread {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.book {
+    font-size: 18px;
+    background-color: rgb(220,50,38);
+    padding: 10px 20px;
+    color: white;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+    font-weight: 700px;
+    border-radius: 6px;
+    cursor: pointer;
+    justify-content: center;
+    margin: 0 10px;
+    margin-bottom: 20px;
+}
+.special {
+    margin-bottom: 10px;
+}
+.offerBox {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    font-size: 13px;
+    border: 2px dashed rgb(216, 215, 215);
+    background-color: white;
+}
+.offerBox img {
+    width: 25px;
+}
+.inline {
+    display: flex;
+    gap: 10px;
+}
+.bg {
+    background-color: rgb(243, 245, 247);
+    padding: 10px;
+}
+.link * {
+    text-decoration: none;
+    color: rgb(81, 213, 218);
+}
+.offerBox button {
+    padding: 5px 10px;
+    font-size: 13px;
+    border: 1px solid rgb(81, 213, 218);
+    color: rgb(81, 213, 218);
+    font-weight: bold;
+    background-color: white;
+    border-radius: 4px;
+}
